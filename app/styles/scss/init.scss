@@ -1,12 +1,26 @@
-//misc settings
-@import 'config/_settings';
-@import 'config/_mixins';
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
-//frameworks
+// Font Awesome
+// @import "node_modules/font-awesome/scss/font-awesome";
+
+// Variables
+@import "config/variables";
+
+//misc settings
+@import 'config/_settings'; // Não usadas até o momento
+@import 'config/_mixins';   // Não usadas até o momento
+
+// Frameworks 
+// Não precisa importar o bootstrap o mesmo já está adicionado via task do gulp
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// Pages
+@import "config/overrides";
+@import "config/helpers";
 
 //global things
 @import 'general/_reset';
-@import 'layout/_main';
-
-//pages
+@import 'layout/main';

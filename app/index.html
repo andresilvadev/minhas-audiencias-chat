@@ -11,9 +11,12 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark  ma-navbar">
+      
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark ma-navbar">
             <a class="navbar-brand" href="index.html">
-                <img src="images/mi_logowhite.svg" alt="Minhas Audiências">
+                <!-- <img src="images/mi_logowhite.svg" alt="Minhas Audiências"> -->
             </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,23 +35,46 @@
           </div>
         </nav>
 
+        <!-- Nav menu middle -->
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container">
+                <a class="navbar-brand" href="#">Cópia</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="textoNavbar">
+                 
+                  
+                  <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                          <a class="nav-link"><img src="avatar.png" alt="Avatar" class="avatar"> Empresa X</a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link">Aguardando Execução</a>
+                      </li>                      
+                  </ul>
+
+                </div>
+              </div>
+              </nav>
+        <div>
+
         <!-- Main container -->
         <main class="container">
-      
+
           <section class="section">
 
               <div class="col-md-12 col-sm-12">
       
-                  <nav class="nav nav-pills flex-column flex-sm-row" id="v-pills-tab" role="tablist">
+                  <nav class="nav nav-pills nav-fill flex-column flex-sm-row" id="v-pills-tab" role="tablist">
                       <a class="nav-item nav-link active" id="v-pills-informacoes-tab" data-toggle="pill" href="#v-pills-informacoes" role="tab" aria-controls="v-pills-informacoes" aria-selected="true">Serviço</a>
                       <a class="nav-item nav-link " id="v-pills-experiencias-tab" data-toggle="pill" href="#v-pills-experiencias" role="tab" aria-controls="v-pills-experiencias" aria-selected="false">Chat</a>
                       <a class="nav-item nav-link " id="v-pills-preferencias-tab" data-toggle="pill" href="#v-pills-preferencias" role="tab" aria-controls="v-pills-preferencias" aria-selected="false">Andamento</a>
                       <a class="nav-item nav-link " id="v-pills-certificacoes-e-perfis-tab" data-toggle="pill" href="#v-pills-certificacoes-e-perfis" role="tab" aria-controls="v-pills-certificacoes-e-perfis" aria-selected="false">R$ 250,00</a>             
                       <a class="nav-item nav-link " id="v-pills-privacidade-tab" data-toggle="pill" href="#v-pills-privacidade" role="tab" aria-controls="v-pills-privacidade" aria-selected="false">3 anexos</a>
                       <a class="nav-item nav-link " id="v-pills-habilidades-tab" data-toggle="pill" href="#v-pills-habilidades" role="tab" aria-controls="v-pills-habilidades" aria-selected="false">Informado</a>
-                      <a class="nav-item nav-link " id="v-pills-dados-pessoais-tab" data-toggle="pill" href="#v-pills-dados-pessoais" role="tab" aria-controls="v-pills-dados-pessoais" aria-selected="false">Avalie</a>
-                      <a class="nav-item nav-link " id="v-pills-referencias-tab" data-toggle="pill" href="#v-pills-referencias" role="tab" aria-controls="v-pills-referencias" aria-selected="false">Referências</a>
-                      <a class="nav-item nav-link " id="v-pills-perguntas-tab" data-toggle="pill" href="#v-pills-perguntas" role="tab" aria-controls="v-pills-perguntas" aria-selected="false">Perguntas</a>
+                      <a class="nav-item nav-link " id="v-pills-dados-pessoais-tab" data-toggle="pill" href="#v-pills-dados-pessoais" role="tab" aria-controls="v-pills-dados-pessoais" aria-selected="false">Avalie</a>                      
                   </nav>
                   
                 </div>
@@ -57,7 +83,7 @@
       
               <div class="row">
       
-                <div class="col-md-10 col-sm-12">
+                <div class="col-md-12 col-sm-12">
                   <div class="ma-page">
                     <div class="tab-content" id="v-pills-tabContent">
                       <div class="tab-pane fade show active " id="v-pills-informacoes" role="tabpanel" aria-labelledby="v-pills-informacoes-tab">
@@ -672,141 +698,7 @@
                         
                       </div>
       
-                      <div class="tab-pane fade " id="v-pills-referencias" role="tabpanel" aria-labelledby="v-pills-referencias-tab">
-                        <div class="text-center">
-                          <h5>Solicitar referências</h5>
-                          <h5><small>Reforce o seu perfil com a ajuda de colegas e gestores.</small></h5>
-                          <h6>Conte-nos como as pessoas veêm seu perfil! Solicite recomentações de seus amigos, colegas e comanheiros de trabalho. </h6>                    
-                        </div>                  
-                        <hr>
       
-                        <div class="form-row m-t-20">
-                            <div class="form-group col-md-12">
-                              <label for="inputGrupoEmails">Informe o e-mail de seu contato</label>
-                              <input type="email" class="form-control" id="inputGrupoEmails" placeholder="ex. jonsnow@gmail.com, sansa@gmail.com">
-                            </div>                      
-                        </div>
-      
-                        <br>
-                        <h5>As pessoas que você indicar receberão um email com o texto abaixo:</h5>
-                        <br>
-      
-                        <div class="jumbotron">
-                            <h1 class="display-4">Olá, Jon Snow!</h1>
-                            <p class="lead">
-                              Estou participando de um processo seletivo pela mqc.com.br, e gostaria de pedir 5 minutos do seu tempo para escrever uma breve recomendação. <br><br> 
-                              Será que você pode clicar aqui e contar um pouco sobre o tempo em que trabalhamos juntos? Isso reforça minha candidatura! <br><br> 
-                                Caso tenha qualquer dúvida fale com o suporte 
-                                <br><br> 
-                                Um abraço, 
-                                Suzele Mendes.</p>
-                            <hr class="my-4">
-                            <p>E-mail enviado através da plataforma MQC o maior portal de empregos tecnologicos.</p>
-                            <p class="lead">
-                              <a class="btn btn-success btn-lg" href="#" role="button">Conheça a MQC</a>
-                            </p>
-                          </div>
-      
-                        <footer class="ma-form-footer">                      
-                          <div class="text-left">
-                            <button type="button" class="btn btn-secondary"> Enviar solicitação</button>
-                            <button type="button" class="btn btn-primary"> Mais tarde</button>
-                          </div>
-                        </footer>
-      
-                      </div>
-      
-                      <div class="tab-pane fade " id="v-pills-perguntas" role="tabpanel" aria-labelledby="v-pills-perguntas-tab">
-                        <div class="text-center">
-                          <h6>Recrutadores querem saber mais sobre você! </h6>                    
-                          <h6>
-                            <small>Essa é sua oportunidade de mostrar o profissional incrível que é! Tudo o que responder aqui ficará público no seu perfil para centenas de diretores, gerentes e RH’s.</small></h6>
-                        </div>                    
-                        <hr>   
-                        
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                              <label for="inputGerente">Você já gerenciou uma equipe? Se sim, quantas pessoas estavam sob sua gestão?</label>
-                              <input type="text" class="form-control" id="inputGerente" placeholder="Escreva sua resposta com siceridade">                        
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputProjeto">Descreva o projeto que você tem mais orgulho de ter trabalhado. O que fez você se destacar?</label>
-                              <input type="text" class="form-control" id="inputProjeto" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputProjetoCompleto">Você já gerenciou um projeto do inicio ao fim? Se sim, conte um pouco dos resultados obtidos.</label>
-                              <input type="text" class="form-control" id="inputProjetoCompleto" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputDesafio">Qual foi o maior desafio profissional que você teve que superar? Como você pensou na solução?</label>
-                              <input type="text" class="form-control" id="inputDesafio" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>  
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputOqueBusca">O que você procura no seu próximo emprego?</label>
-                              <input type="text" class="form-control" id="inputOqueBusca" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputInteresseIndustria">Você tem interesse em trabalhar em quais setores/indústrias?</label>
-                              <input type="text" class="form-control" id="inputInteresseIndustria" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputOutrosPaises">Você já trabalhou com pares ou gestores de outros países? Como foi a experiência?</label>
-                              <input type="text" class="form-control" id="inputOutrosPaises" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                                <label for="inputOutroIdioma">Fala outro idioma além do Português ou Inglês? Em que nível?</label>
-                                <input type="text" class="form-control" id="inputOutroIdioma" placeholder="Escreva sua resposta com siceridade">
-                                <div class="clearfix m-t-10">
-                                    <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                                </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputHabilidades">Dentro de suas habilidades, com qual você tem mais interesse em trabalhar no futuro?</label>
-                              <input type="text" class="form-control" id="inputHabilidades" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-      
-                            <div class="form-group col-md-12">
-                              <label for="inputOportunidadeExterior">Você estaria aberto a oportunidades de trabalho em outros países?</label>
-                              <input type="text" class="form-control" id="inputOportunidadeExterior" placeholder="Escreva sua resposta com siceridade">
-                              <div class="clearfix m-t-10">
-                                  <button type="button" class="btn btn-secondary float-left">Enviar resposta</button>                            
-                              </div>
-                            </div>
-                        </div>
-                        
-                      </div>
                     </div>
                   </div>
                 </div>

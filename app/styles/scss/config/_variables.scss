@@ -1,0 +1,41 @@
+
+// Themes
+$theme-colors: (
+    "primary":  #2172d7,
+    "secondary":#526173,    
+    "dark":     #4D008C,
+    "danger":   #fc4446,
+    "info":     #2b8eeb,
+    "success":  #16be3d,
+);
+
+// Body
+$body-background: whitesmoke;
+
+// Brands
+$brand-primary: #2172d7;
+$brand-info:    #2b8eeb;
+$brand-success: #16be3d;
+$brand-warning: #cbb956;
+$brand-danger:  #fc4446;
+
+// Typography
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$font-family-sans-serif: "Raleway", sans-serif;
+$line-height-base: 1.6;
+$text-color: #636b6f;
+
+// Navbar
+$navbar-main-bg: #2172d7;
+$navbar-main-color: #fff;
+
+// Buttons
+$btn-default-color: $text-color;
+
+// Panels
+$panel-default-heading-bg: #fff;
+
+// Borders
+$border-radius:     0rem;
+$border-radius-lg:  0rem;
+$border-radius-sm:  0rem;

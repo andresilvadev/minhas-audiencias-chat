@@ -1,23 +1,210 @@
-$theme-colors: (
-    "primary":  #2172d7,
-    "secondary":#526173,    
-    "dark":     #4D008C,
-    "danger":   #fc4446,
-    "info":     #2b8eeb,
-    "success":  #16be3d,
-);
-
-$navbar-light-color: #2172d7;
-
-.palleta {
-    color: #DFC1F5;
-    color: #DA83EA;
-    color: #BB7DE9;
-    color: #B470E6;
-    color: #AE64E4;
-    color: #4D008C;
+/*==============  SECTION  ==============*/
+.section {
+    margin: 30px 0 100px 0;
 }
 
-$border-radius:     0rem;
-$border-radius-lg:  0rem;
-$border-radius-sm:  0rem;
+.section-info {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 60px;
+}
+
+/*===========  FOOTER  ===========*/
+.site-footer {
+    font-size: .80rem;
+    border-top: 1px solid #d9dde0;
+    padding: 30px 0;
+    background-color: #dbe2e6;
+    margin-top: 150px;    
+}
+
+.text-info-suporte {
+    color:#949494
+}
+
+.row.gap-y {
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.logo-footer img {
+    margin-top: 10px;
+}
+
+.social-facebook {
+    padding: 0px 5px 0 5px;
+    font-size: 1.75em;
+}
+
+.social-twitter {
+    padding: 0px 5px 0 5px;
+    font-size: 1.75em;
+}
+
+.social-instagram {
+    padding: 0px 5px 0 5px;
+    font-size: 1.75em;
+}
+
+.social-dribbble {
+    padding: 0px 5px 0 5px;
+    font-size: 1.75em;
+}
+
+/*===========  MA CLASSES  ===========*/
+.ma-page {
+    background-color: #fff;
+    border: solid 1px #e5e5e5;
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+.ma-paragrafh {
+    color: #848484;
+}
+
+.ma-emprego-atual {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.ma-linkedin-container {
+    background-color: #f5fbfd;
+    border: 1px solid #b0e5f0;
+    min-height: 138px;
+    padding: 45px;
+    text-align: center;
+}
+
+.ma-custom-upload{
+    border:1px dashed #bec3ca;
+    padding:30px;
+    text-align:center;
+}
+
+.ma-custom-upload:hover{
+    border:1px dashed #ae64e4;
+    cursor:pointer;
+}
+
+.ma-custom-upload__subtitle{
+    color:#7d8996;
+    font-size:15px;
+}
+
+.ma-custom-upload__upload>*:not(:last-child){
+    margin:0;
+    margin-bottom:20px;
+}
+
+.ma-custom-upload__icon{
+    background-image:url(../images/icn-upload.svg);
+    background-position:center;
+    background-repeat:no-repeat;
+    height:35px;
+}
+
+.ma-custom-upload__action{
+    background:none;
+    border:0;
+    color:#3c4d61;
+    font-size:15px;
+    font-weight:500;
+    text-decoration:underline;
+}
+
+.ma-custom-upload__file{
+    background-color:#f8f9f9;
+    display:flex;
+    height:45px;
+    justify-content:space-between;
+    padding:14px 20px;
+}
+
+.ma-custom-upload__filename{
+    font-size:14px;
+    font-weight:600;
+    overflow:hidden;
+    text-align:left;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:65%;
+}
+
+.ma-custom-upload__del-button{
+    background:none;
+    border:0;
+    color:#ae64e4;
+    font-weight:600;
+}
+
+.ma-custom-upload__del-button:hover{
+    text-decoration:underline;
+}
+
+.ma-form-footer{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flexbox;
+    display:flex;
+    border-top:solid 1px #e5e5e5;
+    justify-content:space-between;
+    margin:25px 0 0;
+    padding:25px 0 0;
+}
+
+.ma-form-footer.right{
+    justify-content:flex-end;
+}
+
+.ma-no-border {
+    border: none !important;
+}
+
+.ma-navbar {
+    background-color: $navbar-main-bg;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*===========  Toggle Switch  ===========*/
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+    border-radius: 20rem; 
+}
+
+.toggle.ios .toggle-handle { 
+    border-radius: 20rem; 
+}
+
+/*===========  MEDIA QUERIES  ===========*/
+@media (max-width: 768px) {
+    .social {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px){
+    .ma-form-footer.separator-none-sm {
+        border-top:0
+    }
+
+    .ma-form-footer .left-sm {
+        justify-content:flex-start
+    }
+
+    .ma-form-footer *:not(:last-child) {
+        margin-right:10px
+    }
+    
+}
