@@ -41,6 +41,15 @@ gulp.task('copy-js', function () {
          .pipe(gulp.dest('app/scripts/src/_includes/', { sourcemaps: true }));
 });
 
+
+// Copy fontes
+gulp.task('copy-fonts', function () {    
+    gulp.src([
+        './node_modules/font-awesome/fonts/*',
+        ])
+         .pipe(gulp.dest('app/fonts/', { sourcemaps: true }));
+});
+
 //compressing images & handle SVG files
 gulp.task('images', function(tmp) {
     gulp.src(['app/images/*.jpg', 'app/images/*.png'])

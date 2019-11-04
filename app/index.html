@@ -1,760 +1,652 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Minhas Audiências Chat</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html class="no-js" lang="pt-BR">
 
-        <link rel="stylesheet" href="styles/styles.css">
-    </head>
-    <body>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Minhas Audiências Chat</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-      
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
 
+<body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark ma-navbar">
-            <a class="navbar-brand" href="index.html">
-                <!-- <img src="images/mi_logowhite.svg" alt="Minhas Audiências"> -->
-            </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-      
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">                  
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
-                  </li>                  
-                </ul>
-          </div>
-        </nav>
+	<nav class="navbar navbar-expand-lg navbar-dark ma-navbar">
+		<a class="navbar-brand" href="index.html">
+			<img src="images/mi_logo_branca.svg" alt="Minhas Audiências">
+		</a>
+	</nav>
 
-        <!-- Nav menu middle -->
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <div class="container">
-                <a class="navbar-brand" href="#">Cópia</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="textoNavbar">
-                 
-                  
-                  <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                          <a class="nav-link"><img src="avatar.png" alt="Avatar" class="avatar"> Empresa X</a>
-                        </li>
-                      <li class="nav-item">
-                        <a class="nav-link">Aguardando Execução</a>
-                      </li>                      
-                  </ul>
+	<!-- BEGIN MENU INTERMEDIARY -->
+	<div class="nav-atendimento">
+		<nav class="navbar navbar-expand-lg navbar-light navbar--border-bottom">
+			<div class="container">
 
-                </div>
-              </div>
-              </nav>
-        <div>
+				<a class="navbar-brand" href="#">Cópia</a>
+				
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar" aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
+					<span class="navbar-toggler-icon"></span>
+				</button>
 
-        <!-- Main container -->
-        <main class="container">
+				<div class="collapse navbar-collapse" id="textoNavbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item nav--item-menu-right">
+							<img src="images/logo_cliente.png" alt="Avatar" class="avatar">
+						</li>
+						<li class="nav-item nav--item-menu-right">
+							<span class="nav--item-information">Contratante</span>
+							<a class="nav-link nav--link-enterprise-name">Empresa X</a>
+						</li>
+						<li class="nav-item nav--divider"></li>
+						<li class="nav-item nav--item-menu-right">
+							<span class="nav--item-information">Status</span>
+							<a class="nav-link nav--link-wait-execution">Aguardando Execução</a>
+						</li>
+					</ul>
+				</div>
 
-          <section class="section">
+			</div>
+		</nav>
+	<div>
+	<!-- END MENU INTERMEDIARY -->
 
-              <div class="col-md-12 col-sm-12">
-      
-                  <nav class="nav nav-pills nav-fill flex-column flex-sm-row" id="v-pills-tab" role="tablist">
-                      <a class="nav-item nav-link active" id="v-pills-informacoes-tab" data-toggle="pill" href="#v-pills-informacoes" role="tab" aria-controls="v-pills-informacoes" aria-selected="true">Serviço</a>
-                      <a class="nav-item nav-link " id="v-pills-experiencias-tab" data-toggle="pill" href="#v-pills-experiencias" role="tab" aria-controls="v-pills-experiencias" aria-selected="false">Chat</a>
-                      <a class="nav-item nav-link " id="v-pills-preferencias-tab" data-toggle="pill" href="#v-pills-preferencias" role="tab" aria-controls="v-pills-preferencias" aria-selected="false">Andamento</a>
-                      <a class="nav-item nav-link " id="v-pills-certificacoes-e-perfis-tab" data-toggle="pill" href="#v-pills-certificacoes-e-perfis" role="tab" aria-controls="v-pills-certificacoes-e-perfis" aria-selected="false">R$ 250,00</a>             
-                      <a class="nav-item nav-link " id="v-pills-privacidade-tab" data-toggle="pill" href="#v-pills-privacidade" role="tab" aria-controls="v-pills-privacidade" aria-selected="false">3 anexos</a>
-                      <a class="nav-item nav-link " id="v-pills-habilidades-tab" data-toggle="pill" href="#v-pills-habilidades" role="tab" aria-controls="v-pills-habilidades" aria-selected="false">Informado</a>
-                      <a class="nav-item nav-link " id="v-pills-dados-pessoais-tab" data-toggle="pill" href="#v-pills-dados-pessoais" role="tab" aria-controls="v-pills-dados-pessoais" aria-selected="false">Avalie</a>                      
-                  </nav>
-                  
-                </div>
+	<!-- BEGIN MAIN CONTAINER -->
+	<main class="container">
+	
+		<section class="section">
+	
+			<div class="col-md-12 col-sm-12">
+	
+				<nav class="nav nav-pills nav-fill flex-column flex-sm-row" id="v-pills-tab" role="tablist">
+					<a class="nav-item nav-link nav--link-services" id="v-pills-informacoes-tab" data-toggle="pill"	href="#v-pills-informacoes" role="tab" aria-controls="v-pills-informacoes" aria-selected="true">
+						<span class="icon-documents-clip icon-font-big"></span>
+						Serviço
+					</a>
+					<a class="nav-item nav-link active nav--link-services" id="v-pills-experiencias-tab" data-toggle="pill" href="#v-pills-experiencias" role="tab" aria-controls="v-pills-experiencias" aria-selected="false">
+						<span class="icon-chat-1 icon-font-big"></span>
+						Chat
+					</a>
+					<a class="nav-item nav-link nav--link-services" id="v-pills-preferencias-tab" data-toggle="pill" href="#v-pills-preferencias" role="tab" aria-controls="v-pills-preferencias" aria-selected="false">
+						<span class="icon-arrow-left-right icon-font-big"></span>
+						Andamento
+					</a>
+					<a class="nav-item nav-link nav--link-attributes" id="v-pills-certificacoes-e-perfis-tab" data-toggle="pill" href="#v-pills-certificacoes-e-perfis" role="tab" aria-controls="v-pills-certificacoes-e-perfis" aria-selected="false">
+						<span class="v-pills--information">Valores</span>
+						R$ 250,00
+						<span class="icon-edit"></span>
+					</a>
+					<a class="nav-item nav-link nav--link-attributes" id="v-pills-privacidade-tab" data-toggle="pill" href="#v-pills-privacidade" role="tab" aria-controls="v-pills-privacidade" aria-selected="false">
+						<span class="v-pills--information">Documentos / URL</span>
+						3 anexos
+						<span class="icon-paper-clip"></span>
+						<span class="badge badge-primary round badge-menu-top">+</span>
+					</a>
+					<a class="nav-item nav-link nav--link-attributes" id="v-pills-habilidades-tab" data-toggle="pill" href="#v-pills-habilidades" role="tab" aria-controls="v-pills-habilidades" aria-selected="false">
+						<span class="v-pills--information">Dados da Audiência</span>
+						Informado
+						<span class="icon-edit"></span>
+					</a>
+					<a class="nav-item nav-link nav--link-attributes" id="v-pills-dados-pessoais-tab" data-toggle="pill" href="#v-pills-dados-pessoais" role="tab" aria-controls="v-pills-dados-pessoais" aria-selected="false">
+						<span class="v-pills--information">Avalie</span>
+						<div class="star">
+							<i class="fa fa-star yellow"></i>
+						</div>
+					</a>
+				</nav>
+	
+			</div>
+	
+			<div class="bd-example bd-example-tabs">
+				<br>
+				<div class="row">
+	
+					<div class="col-md-12 col-sm-12">
+						<div class="ma-page">
+							<div class="tab-content" id="v-pills-tabContent">
+								<div class="tab-pane fade " id="v-pills-informacoes" role="tabpanel" aria-labelledby="v-pills-informacoes-tab">
+	
+									<section>
+										<div class="ma-linkedin-container">
+											<button class="btn btn-outline-success">Solicitação de demonstrativo</button>
+										</div>
+									</section>
+	
+									<h5 class="text-center p-4">Ou</h5>
+	
+									<section>
+										<div id="cv-upload" class="ma-custom-upload">
+	
+											<div class="ma-custom-upload__upload hidden">	
+	
+												<label for="exampleFormControlFile1">	
+													<div class="ma-custom-upload__icon"></div><br>
+													<h3 class="ma-custom-upload__subtitle">Processos</h3>
+													Inicie um novo processo
+												</label>
+												<input type="file" class="form-control-file" id="exampleFormControlFile1">
+											</div>
+	
+											<br>
+	
+											<div class="ma-custom-upload__file">
+												<span class="ma-custom-upload__filename">andre-silva-dev.pdf</span>
+												<button class="ma-custom-upload__del-button link" id="update-cv-upload">Remover <i class="fa fa-times"></i></button>
+											</div>
+										</div>
+									</section>
+									<footer class="ma-form-footer right">
+										<button class="btn btn-primary">Atualizar</button>
+									</footer>	
+								</div>
+	
+								<div class="tab-pane fade show active " id="v-pills-experiencias" role="tabpanel" aria-labelledby="v-pills-experiencias-tab">
+	
+									<!-- BEGIN CHAT -->
+									<section>
+	
+										<div class="line-message">
+											<div class="talk-bubble-left tri-right border round btm-left-in no-border">
+												<div class="talktext-left">
+													<div class="chat-img-client">
+														<img src="images/logo_cliente.png" alt="Avatar" class="avatar">
+													</div>
+													<div class="chat-message">
+														<p><strong>Empresa X - 17:45</strong></p>
+														<p class="text-gray">Já respondi o seu e-mail</p>
+													</div>
+	
+												</div>
+											</div>
+										</div>	
+	
+										<div class="wrap">
+											<h2 class="left">
+												<span>Hoje</span>
+											</h2>
+										</div>
+	
+										<div class="line-message">
+											<div class="talk-bubble-left tri-right border round btm-left-in no-border">
+												<div class="talktext-left">
+													<div class="chat-img-client">
+														<img src="images/logo_cliente.png" alt="Avatar" class="avatar">
+													</div>
+													<div class="chat-message">
+														<p><strong>Empresa X - 17:45</strong></p>
+														<p class="text-gray">Estou disponível para realizar o
+															serviço às 13:00h. É meu caminho. Caso queira falar
+															comigo, ligue para (11) 999-99999</p>
+													</div>
+												</div>
+											</div>
+										</div>
+	
+										<div class="line-message">
+											<div class="talk-bubble-right tri-right border round btm-right-in bg-white">
+												<div class="talktext-rigth ">
+													<p><strong>Eu- 17:46</strong></p>
+													<p class="text-gray">Por favor, vai ajudar bastante</p>
+												</div>
+											</div>
+										</div>
+	
+										<div class="line-message">
+											<div class="talk-bubble-right tri-right border round btm-right-in bg-white">
+												<div class="talktext-rigth ">
+													<p><strong>Eu- 17:46</strong></p>
+													<p class="text-gray">Por favor, vai ajudar bastante</p>
+												</div>
+											</div>
+										</div>	
+	
+									</section>
+									<!-- END CHAT -->	
+								</div>
 
-            <div class="bd-example bd-example-tabs">
-      
-              <div class="row">
-      
-                <div class="col-md-12 col-sm-12">
-                  <div class="ma-page">
-                    <div class="tab-content" id="v-pills-tabContent">
-                      <div class="tab-pane fade show active " id="v-pills-informacoes" role="tabpanel" aria-labelledby="v-pills-informacoes-tab">
-                       
-                        <section>
-                          <div class="ma-linkedin-container">
-                            <button class="btn btn-outline-success">Linkedin já conectado</button>                      
-                          </div>
-                        </section>
-      
-                        <h5 class="text-center p-4">Ou</h5>
-      
-                        <section>
-                          <div id="cv-upload" class="ma-custom-upload">
-                            
-                            <div class="ma-custom-upload__upload hidden">
-                              
-                              
-                              <!-- <button class="ma-custom-upload__action" id="add-cv-upload">Clique aqui para fazer upload</button>   -->
-                              
-                              <label for="exampleFormControlFile1">
-                                  
-                                <div class="ma-custom-upload__icon"></div><br>
-                                <h3 class="ma-custom-upload__subtitle">Tem um PDF com seu CV?</h3> 
-                                  Clique aqui para fazer upload
-                              </label>
-                              <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                            </div>
-      
-                            <br>
-                            
-                            <div class="ma-custom-upload__file ">
-                              <span class="ma-custom-upload__filename">cv-andre-silva-dev.pdf</span>
-                              <button class="ma-custom-upload__del-button link" id="update-cv-upload">Atualizar curriculum</button>
-                            </div>
-                          </div>
-                        </section>
-      
-                        <footer class="ma-form-footer right">
-                          <button class="btn btn-secondary">Continuar</button>                      
-                        </footer>
-      
-                      </div>
-                      
-                      <div class="tab-pane fade " id="v-pills-experiencias" role="tabpanel" aria-labelledby="v-pills-experiencias-tab">
-                        <h5>Hora de contar suas experiências</h5>                  
-                        <h5><small class="text-muted">Experiência Profissional</small></h5>
-                        <br>
-      
-                        <section>
-                            <form>
-                                <div class="form-row">
-                                  <div class="form-group col-md-6">
-                                    <label for="inputEmpresa">Empresa</label>
-                                    <input type="email" class="form-control" id="inputEmpresa" placeholder="ex. Google">
-                                  </div>
-                                  <div class="form-group col-md-6">
-                                    <label for="inputCargo">Cargo</label>
-                                    <input type="password" class="form-control" id="inputCargo" placeholder="ex. Programador Sênior">
-                                  </div>
-                                  <div class="form-group col-md-12">
-                                      <label for="inputDescricao">Descrição</label>
-                                      <textarea rows="5" class="form-control" id="inputDescricao" placeholder="Descreva aqui"></textarea>
-                                    </div>
-                                </div>                          
-      
-                                <div class="form-row">                              
-                                    <div class="form-group col-md-4">
-                                      <label for="inputMesInicio">Data de início mês</label>
-                                      <select id="inputMesInicio" class="form-control">                                  
-                                        <option value="">Janeiro</option>
-                                        <option value="">Fevereiro</option>
-                                        <option value="">Março</option>
-                                        <option value="">Abril</option>
-                                        <option value="">Maio</option>
-                                        <option value="">Junho</option>
-                                        <option value="">Julho</option>
-                                        <option value="">Agosto</option>
-                                        <option value="">Setembro</option>
-                                        <option value="">Outubro</option>
-                                        <option value="">Novembro</option>
-                                        <option value="">Dezembro</option>
-                                      </select>
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                      <label for="inputAnoInicio">Ano</label>
-                                      <input type="text" class="form-control" id="inputAnoInicio" maxlength="4">
-                                    </div>
-      
-                                    <div class="form-group col-md-4">
-                                        <label for="inputMesSaida">Data de saída mês</label>
-                                        <select id="inputMesSaida" class="form-control">                                  
-                                          <option value="">Janeiro</option>
-                                          <option value="">Fevereiro</option>
-                                          <option value="">Março</option>
-                                          <option value="">Abril</option>
-                                          <option value="">Maio</option>
-                                          <option value="">Junho</option>
-                                          <option value="">Julho</option>
-                                          <option value="">Agosto</option>
-                                          <option value="">Setembro</option>
-                                          <option value="">Outubro</option>
-                                          <option value="">Novembro</option>
-                                          <option value="">Dezembro</option>
-                                        </select>
-                                      </div>
-                                      <div class="form-group col-md-2">
-                                        <label for="inputAnoSaida">Ano</label>
-                                        <input type="text" class="form-control" id="inputAnoSaida" maxlength="4">
-                                      </div>
-                                </div>                            
-      
-                                <div class="form-row">
-                                  <div class="form-group col-md-10">
-                                    <label for="inputEndereco">Endereço</label>
-                                    <input type="text" class="form-control" id="inputEndereco" placeholder="ex. Rua Av Lions Clube">
-                                  </div>
-                                  <div class="form-group col-md-2">
-                                      <label for="inputNumerp">Número</label>
-                                      <input type="text" class="form-control" id="inputNumerp" placeholder="ex. 546">
-                                    </div>
-                                </div>
-      
-                                <div class="form-row">
-                                  <div class="form-group col-md-6">
-                                    <label for="inputCidade">Cidade</label>
-                                    <input type="text" class="form-control" id="inputCidade">
-                                  </div>
-                                  <div class="form-group col-md-4">
-                                    <label for="inputEstado">Estado</label>
-                                    <select id="inputEstado" class="form-control">
-                                      <option selected class="ma-select">Selecione...</option>
-                                      <option>Paraná</option>
-                                      <option>São Paulo</option>
-                                      <option>Rio de Janeiro</option>
-                                      <option>Santa Catarina</option>
-                                    </select>
-                                  </div>
-                                  <div class="form-group col-md-2">
-                                    <label for="inputCep">CEP</label>
-                                    <input type="text" class="form-control" id="inputCep">
-                                  </div>
-                                </div>
-                                <div class="form-group">
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                    <!-- <h5>É meu emprego atual</h5> -->
-                                    <p class="lead ma-emprego-atual">
-                                        É meu emprego atual
-                                      </p>
-                                    </label>
-                                  </div>
-                                </div>
-                                <button class="btn btn-secondary"> <i class="fa fa-plus"></i> Adicionar empresa</button>
-      
-                                <hr>
-      
-                                <div class="form-row">
-                                  <div class="form-group col-md-12">
-                                    <label for="inputInstituicaoAcademica">Formação Acadêmica</label>
-                                    <input type="email" class="form-control" id="inputInstituicaoAcademica" placeholder="ex. Universidade de Ponta Grossa">
-                                  </div>
-                                  <div class="form-group col-md-12">
-                                    <label for="inputCurso">Curso</label>
-                                    <input type="password" class="form-control" id="inputCurso" placeholder="ex. Ciências da computação">
-                                  </div>
-                                  <div class="form-group col-md-4">
-                                      <label for="inputNivel">Nível</label>
-                                      <select id="inputNivel" class="form-control">                                  
-                                        <option value="">Bacharelado</option>
-                                        <option value="">Cursando</option>
-                                        <option value="">Doutorado</option>
-                                        <option value="">Ensino Fundamental</option>
-                                        <option value="">Ensino Médio</option>
-                                        <option value="">Ensino Técnico</option>
-                                        <option value="">Especialização</option>
-                                        <option value="">Extensão</option>
-                                        <option value="">Intercâmbio</option>
-                                        <option value="">Licenciatura</option>
-                                        <option value="">Mestrado</option>
-                                        <option value="">Outro</option>
-                                        <option value="">Pós-Graduação</option>
-                                        <option value="">Tecnólogo</option>
-                                        <option value="">Treinamento</option>
-                                        <option value="">Técnico</option>
-                                      </select>
-                                    </div>
-                                    <div class="form-group col-md-2">
-                                      <label for="inputConclusao">Conclusão</label>
-                                      <input type="text" class="form-control" id="inputConclusao" maxlength="4">
-                                    </div>    
-                                  </div>
-      
-                                  <button class="btn btn-se"> <i class="fa fa-plus"></i> Adicionar instituição</button>
-      
-                                <footer class="ma-form-footer">  
-                                  <a class="btn btn-outline-primary float-left" href="">Voltar</a>
-                                  <button type="submit" class="btn btn-secondary"> Atualizar</button>
-                                </footer>
-                              </form>
-                        </section>
-      
-                      </div>
-                      <div class="tab-pane fade " id="v-pills-preferencias" role="tabpanel" aria-labelledby="v-pills-preferencias-tab">
-                        <h5>Interesse profissional</h5>                  
-                        <h5><small class="text-muted">Diga-nos quais são seus interesses</small></h5>
-                        <br>
-                        <section>
-                            <form>
-                                <div class="form-row">
-                                  <div class="form-group col-md-12">
-                                    <label for="inputInteresseProfissional">Qual sua carreira de interesse?</label>                              
-                                      <select id="inputInteresseProfissional" class="form-control">                                  
-                                        <option value="">Desenvolvedor Back-end</option>
-                                        <option value="">Desenvolvedor Front-end</option>
-                                        <option value="">Desenvolvedor Full-stack</option>
-                                        <option value="">Desenvolvedor Mobile</option>
-                                      </select>
-                                      <br>
-                                  </div>
-      
-                                  <div class="form-group col-md-12">
-                                    <label for="inputBuscaEmprego">Como está sua busca por emprego?</label>                              
-                                      <select id="inputBuscaEmprego" class="form-control">                                  
-                                        <option value="">Não estou procurando um novo emprego agora</option>
-                                        <option value="">Ainda não fiz entrevistas, mas estou pronto para começar</option>
-                                        <option value="">Já fiz algumas entrevistas</option>                                  
-                                      </select>
-                                      <br>
-                                  </div>
-      
-                                  <hr>
-      
-                                  <div class="form-group col-md-12">
-                                    <label for="inputDisponibilidade">A partir de que data você quer ficar visível para empresas? </label>                              
-                                      <select id="inputDisponibilidade" class="form-control">                                  
-                                        <option value="">Ainda não sei</option>                                  
-                                      </select>
-                                      <br>
-                                  </div>
-                                  
-                                </div>
-      
-                                <div class="form-row">                              
-                                    <div class="form-group col-md-6">
-                                      <label for="inputPretencaoSalarial1">Qual seu último salário? (Ou atual)</label>
-                                      <select id="inputPretencaoSalarial1" class="form-control">                                  
-                                        <option value="">R$ Entre 1.000 a  R$ 2.000</option>
-                                        <option value="">R$ Entre 2.000 a  R$ 3.000</option>
-                                        <option value="">R$ Entre 3.000 a  R$ 5.000</option>
-                                        <option value="">R$ Entre 5.000 a  R$ 10.000</option>
-                                        <option value="">R$ Entre 10.000 a  R$ 20.000</option>
-                                        <option value="">Acima de R$ 20.000</option>
-                                      </select>
-                                    </div>
-      
-                                    <div class="form-group col-md-6 text-center">
-                                      <label for="inputPlanoContratacao1">Informe seu plano de contratação</label>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10">
-                                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline1">CLT</label>
-                                      </div>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10">
-                                        <input type="radio" id="customRadioInline2" name="customRadioInline2" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline2">PJ</label>
-                                      </div>
-                                    </div>   
-                                </div>     
-      
-                                <br>
-      
-                                <div class="form-row">    
-                                    <div class="form-group col-md-6">
-                                      <label for="inputPretencaoSalarial2">Qual sua pretensão salarial?</label>
-                                      <select id="inputPretencaoSalarial2" class="form-control">                                  
-                                        <option value="">R$ Entre 1.000 a  R$ 2.000</option>
-                                        <option value="">R$ Entre 2.000 a  R$ 3.000</option>
-                                        <option value="">R$ Entre 3.000 a  R$ 5.000</option>
-                                        <option value="">R$ Entre 5.000 a  R$ 10.000</option>
-                                        <option value="">R$ Entre 10.000 a  R$ 20.000</option>
-                                        <option value="">Acima de R$ 20.000</option>
-                                      </select>
-                                    </div>
-      
-                                    <div class="form-group col-md-6 text-center">
-                                      <label for="inputPlanoContratacao2">Informe seu plano de contratação</label>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10">
-                                        <input type="radio" id="customRadioInline3" name="customRadioInline3" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline3">CLT</label>
-                                      </div>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10">
-                                        <input type="radio" id="customRadioInline4" name="customRadioInline4" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline4">PJ</label>
-                                      </div>
-                                    </div>  
-                                </div>                            
-      
-                                <br>
-      
-                                <div class="form-row">
-                                  <div class="form-group col-md-12">
-                                      <label for="inputEndereco">Que tipo de oferta de emprego você está disposto a considerar?</label>                              
-                                      <br>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                        <input type="radio" id="customRadioInline5" name="customRadioInline5" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline5">CLT</label>
-                                      </div>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                        <input type="radio" id="customRadioInline6" name="customRadioInline6" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline6">PJ</label>
-                                      </div>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                        <input type="radio" id="customRadioInline7" name="customRadioInline7" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline7">Estágio</label>
-                                      </div>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                        <input type="radio" id="customRadioInline8" name="customRadioInline8" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline8">Bolsa</label>
-                                      </div>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                          <input type="radio" id="customRadioInline9" name="customRadioInline9" class="custom-control-input">
-                                          <label class="custom-control-label" for="customRadioInline9">Freelancer</label>
-                                      </div>
-                                  </div>                            
-                                </div>
-      
-                                <br>                          
-      
-                                <div class="form-row">
-                                  <div class="form-group col-md-12">
-                                    <label for="inputInstituicaoAcademica"> Você está buscando uma oportunidade remota ou presencial?</label>
-                                    <br>
-                                    <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                        <input type="radio" id="customRadioInline10" name="customRadioInline10" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline10">Remoto ou presencial</label>
-                                      </div>
-                                      <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                        <input type="radio" id="customRadioInline11" name="customRadioInline11" class="custom-control-input">
-                                        <label class="custom-control-label" for="customRadioInline11">Apenas remoto</label>
-                                      </div>                                
-                                  </div>                            
-                                </div>
-      
-                                <footer class="ma-form-footer">  
-                                  <a class="btn btn-outline-primary float-left" href="">Voltar</a>
-                                  <button type="submit" class="btn btn-secondary"> Atualizar</button>
-                                </footer>
-                              </form>
-                        </section>
-                      </div>
-                      <div class="tab-pane fade " id="v-pills-certificacoes-e-perfis" role="tabpanel" aria-labelledby="v-pills-certificacoes-e-perfis-tab">
-                          <h5>Informações sobre perfil social</h5>                  
-                          <h5><small class="text-muted">Compartilhe suas experiências</small></h5>
-                          <br>
-                          
-                      </div>
-      
-                      <div class="tab-pane fade" id="v-pills-privacidade" role="tabpanel" aria-labelledby="v-pills-privacidade-tab">
-                        <h5>Sua privacidade é coisa séria. Adicione empresas que não poderão ver seu perfil.</h5>
-      
-                        <h5><small class="text-muted">Fique atento a suas informações</small></h5>
-                          <br>
-                          <section>
-                              <form>
-                                  <div class="form-row">
-                                    <div class="form-group col-md-12">                                
-                                      <input type="checkbox" data-toggle="toggle" data-style="ios" checked>                                                             
-                                      <label for="stackedCheck1" class="form-check-label p-l-15">Desativar conta</label>
-                                    </div>                             
-                                  </div>
-      
-                                  <br>
-      
-                                  <div class="form-row">
-                                      <div class="form-group col-md-12">                                
-                                        <input type="checkbox" data-toggle="toggle" data-style="ios">                                                             
-                                        <label for="stackedCheck2" class="form-check-label p-l-15">Ocultar meu perfil das buscas</label>
-                                      </div>                             
-                                  </div>
-      
-                                  <br>
-      
-                                  <div class="form-row">
-                                      <div class="form-group col-md-12">                                
-                                        <input type="checkbox" data-toggle="toggle" data-style="ios" checked>                                                             
-                                        <label for="stackedCheck3" class="form-check-label p-l-15">Notificações via e-mail</label>
-                                      </div>                             
-                                  </div>
-      
-                                  <br>
-      
-                                  <div class="form-row">
-                                      <div class="form-group col-md-12">                                
-                                        <input type="checkbox" data-toggle="toggle" data-style="ios">                                                             
-                                        <label for="stackedCheck4" class="form-check-label p-l-15">Receber mensagens por WhatsApp</label>
-                                      </div>                             
-                                  </div>
-      
-                                  <br>
-      
-                                  <div class="form-row">
-                                      <div class="form-group col-md-12">                                
-                                        <input type="checkbox" data-toggle="toggle" data-style="ios">                                                             
-                                        <label for="stackedCheck5" class="form-check-label p-l-15">Alertas de empregos</label>
-                                      </div>                             
-                                  </div>
-      
-                                  <br>
-                                  
-                                  <div class="form-row">
-                                      <div class="form-group col-md-12">                                
-                                        <input type="checkbox" data-toggle="toggle" data-style="ios">                                                             
-                                        <label for="stackedCheck6" class="form-check-label p-l-15">Minha localização</label>
-                                      </div>                             
-                                  </div>
-      
-                                  <br>
-      
-                                  <div class="form-row">
-                                      <div class="form-group col-md-12">                                
-                                        <input type="checkbox" data-toggle="toggle" data-style="ios" checked>                                                             
-                                        <label for="stackedCheck7" class="form-check-label p-l-15">Mostrar minhas skills</label>
-                                      </div>                             
-                                  </div>
-      
-                                  <br>
-        
-                                  <footer class="ma-form-footer">  
-                                    <a class="btn btn-outline-primary float-left" href="">Voltar</a>
-                                    <button type="submit" class="btn btn-secondary"> Atualizar</button>
-                                  </footer>
-                                </form>
-                          </section>
-                        </div>
-                        
-      
-                      <div class="tab-pane fade " id="v-pills-habilidades" role="tabpanel" aria-labelledby="v-pills-habilidades-tab">
-                          <h5>Habilidades</h5>                  
-                          <h5><small class="text-muted">Diga-nos quais são seus talentos</small></h5>
-                          <br>
-                          <section>
-                              <form>                            
-        
-                                  <div class="form-row">
-                                    <div class="form-group col-md-12">
-                                        <label for="inputEndereco">Que tipo de vaga lhe interessa? (Escolha 1 opção apenas)</label>                              
-                                        <br>
-                                        <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                          <input type="radio" id="customRadioInlineBackEnd" name="customRadioInlineBackEnd" class="custom-control-input">
-                                          <label class="custom-control-label" for="customRadioInlineBackEnd">Back-end</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                          <input type="radio" id="customRadioInlineFrontEnd" name="customRadioInlineFrontEnd" class="custom-control-input">
-                                          <label class="custom-control-label" for="customRadioInlineFrontEnd">Front-end</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                          <input type="radio" id="customRadioInlineFullStack" name="customRadioInlineFullStack" class="custom-control-input">
-                                          <label class="custom-control-label" for="customRadioInlineFullStack">Full-stack</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                          <input type="radio" id="customRadioInlineMobile" name="customRadioInlineMobile" class="custom-control-input">
-                                          <label class="custom-control-label" for="customRadioInlineMobile">Mobile</label>
-                                        </div>
-                                        <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineProductOwner" name="customRadioInlineProductOwner" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineProductOwner">Product Owner</label>
-                                        </div>
-                                    </div>                            
-                                  </div>
-        
-                                  <br>  
-                                  
-                                  <div class="form-row">
-                                      <div class="form-group col-md-12">
-                                          <label for="inputEndereco">Quais suas principais especialidades? (Escolha no máximo duas))</label>                              
-                                          <br>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageAndroid" name="customRadioInlineLanguageAndroid" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageAndroid">Android</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageC" name="customRadioInlineLanguageC" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageC">C</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageC#" name="customRadioInlineLanguageC#" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageC#">C#</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageC++" name="customRadioInlineLanguageC++" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageC++">C++</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageGo" name="customRadioInlineLanguageGo" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageGo">Go</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageIOS" name="customRadioInlineLanguageIOS" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageIOS">iOS</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageJava" name="customRadioInlineLanguageJava" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageJava">Java</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageJavaScript" name="customRadioInlineLanguageJavaScript" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageJavaScript">Javascript</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                            <input type="radio" id="customRadioInlineLanguageKotlin" name="customRadioInlineLanguageKotlin" class="custom-control-input">
-                                            <label class="custom-control-label" for="customRadioInlineLanguageKotlin">Kotlin</label>
-                                          </div>
-                                          <div class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
-                                              <input type="radio" id="customRadioInlineLanguagePHP" name="customRadioInlineLanguagePHP" class="custom-control-input">
-                                              <label class="custom-control-label" for="customRadioInlineLanguagePHP">PHP</label>
-                                          </div>
-                                      </div>                            
-                                    </div>
-      
-                                    <br>
-      
-                                    <div class="form-row">
-                                      <div class="form-group col-md-6">
-                                        <label for="inputTempoExperiencia">Quanto tempo de carreira você tem como Desenvolvedor?</label>
-                                        <select id="inputTempoExperiencia" class="form-control">                                  
-                                          <option value="">Estou começando</option>
-                                          <option value="">Entre 0 a 3 anos</option>
-                                          <option value="">Entre 3 a 6 anos</option>
-                                          <option value="">Mais de 6 anos</option>
-                                        </select>
-                                      </div>
-                                    </div>
-      
-                                    <br>
-      
-                                   
-      
-                                      <br>
-      
-                                    <div class="form-row">
-                                        <div class="form-group col-md-6">
-                                          <label for="inputNivelIngles">Qual seu nível de criatividade?</label>
-                                          <select id="inputNivelIngles" class="form-control">                                  
-                                            <option value="">Pouco criativo</option>
-                                            <option value="">Criatividade moderada</option>
-                                            <option value="">Bastante criativo</option>
-                                            <option value="">Expert</option>
-                                          </select>
-                                        </div>
-                                      </div>
-        
-                                  <footer class="ma-form-footer">  
-                                    <a class="btn btn-outline-primary float-left" href="">Voltar</a>
-                                    <button type="submit" class="btn btn-secondary"> Atualizar</button>
-                                  </footer>
-                                </form>
-                          </section>
-                      </div>
-      
-                      <div class="tab-pane fade " id="v-pills-dados-pessoais" role="tabpanel" aria-labelledby="v-pills-dados-pessoais-tab">
-                        
-                        <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">                                               
-                            <div class="card ma-no-border">
-                              <div class="card-body text-center">
-                                <p><img class="img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
-                                <h4 class="card-title">Suzele Mendes</h4>                          
-                                <p class="card-text">Desenvolvedora Web em PG Soluções Web. <br>+ 55 (42) 3227-5576 </p>                          
-                                <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-envelope"></i> Enviar Mensagem</a>                          
-                              </div>
-                            </div>
-                        </div>
-                        
-                        <hr>
-                        <br>
-      
-                        <h5>Sobre mim</h5>
-                        <p class="ma-paragrafh">
-                          Fugiat id quis dolor culpa eiusmod anim velit excepteur proident dolor aute qui magna. Ad proident
-                          laboris ullamco esse anim Lorem Lorem veniam quis Lorem irure occaecat velit nostrud magna nulla.
-                          Velit et et proident Lorem do ea tempor officia dolor. Reprehenderit Lorem aliquip labore est magna
-                          commodo est ea veniam consectetur.
-                        </p>
-      
-                        <div class="form-row">
-                            <div class="form-group col-md-12">
-                              <label for="inputNomeCompleto">Nome completo*</label>
-                              <input type="email" class="form-control" id="inputNomeCompleto" placeholder="ex. Suzele Mendes" value="Suzele Mendes">
-                            </div>
-                            <div class="form-group col-md-12">
-                              <label for="inputEmail">Confirme seu email*</label>
-                              <input type="email" class="form-control" id="inputEmail" placeholder="ex. suzelemendes@gmail.com" value="suzelemendes@gmail.com">
-                            </div>
-                            <div class="form-group col-md-12">
-                              <label for="inputCelular">Celular</label>
-                              <input class="form-control" id="inputCelular" placeholder="ex. (42) 99999-9955" value="(41) 9999-9955"></input>
-                            </div>
-                            <div class="form-group col-md-12">
-                              <label for="inputSkype">Skype*</label>
-                              <input class="form-control" id="inputSkype" placeholder="ex. suzelemendes" value="suzelemendes.2018"></input>
-                            </div>
-                            <div class="form-group col-md-12">
-                              <label for="inputSobreMim">Sobre mim*</label>
-                              <textarea rows="7" class="form-control" id="inputSobreMim" placeholder="Descreva aqui sobre sua história">Fugiat id quis dolor culpa eiusmod anim velit excepteur proident dolor aute qui magna. Ad proident laboris ullamco esse anim Lorem Lorem veniam quis Lorem irure occaecat velit nostrud magna nulla. Velit et et proident Lorem do ea tempor officia dolor. Reprehenderit Lorem aliquip labore est magna commodo est ea veniam consectetur.</textarea>
-                            </div>
-                        </div>
-      
-                        <footer class="ma-form-footer">  
-                            <a class="btn btn-outline-primary float-left" href="">Voltar</a>
-                            <button type="submit" class="btn btn-secondary"> Atualizar</button>
-                          </footer>
-                        
-                      </div>
-      
-      
-                    </div>
-                  </div>
-                </div>
-      
+								<div class="tab-pane fade " id="v-pills-preferencias" role="tabpanel"
+									aria-labelledby="v-pills-preferencias-tab">
+									<h5>Informações sobre o andamento do processo</h5>
+									<h5><small class="text-muted">Dados atualizados em tempo real</small></h5>
+									<br>
+									<section>
+										<form>
+											<div class="form-row">
+												<div class="form-group col-md-12">
+													<label for="inputInteresseProfissional">Status?</label>
+													<select id="inputInteresseProfissional" class="form-control">
+														<option value="">Aberto</option>
+														<option value="">Em analise</option>
+														<option value="">Rejeitado</option>
+														<option value="">Encerrado</option>
+													</select>
+													<br>
+												</div>
+	
+												<div class="form-group col-md-12">
+													<label for="inputBuscaEmprego">Gostaria de deixar os dados publicos?</label>
+													<select id="inputBuscaEmprego" class="form-control">
+														<option value="">Sim</option>
+														<option value="">Não</option>
+														<option value="">Após enceramento</option>
+													</select>
+													<br>
+												</div>
+	
+												<hr>
+												<br>
+	
+											</div>
+	
+											<div class="form-row">
+												<div class="form-group col-md-6">
+													<label for="inputPretencaoSalarial1">Informe seu último	salário?</label>
+													<select id="inputPretencaoSalarial1" class="form-control">
+														<option value="">R$ Entre 1.000 a R$ 2.000</option>
+														<option value="">R$ Entre 2.000 a R$ 3.000</option>
+														<option value="">R$ Entre 3.000 a R$ 5.000</option>
+														<option value="">R$ Entre 5.000 a R$ 10.000</option>
+														<option value="">R$ Entre 10.000 a R$ 20.000</option>
+														<option value="">Acima de R$ 20.000</option>
+													</select>
+												</div>	
+											</div>
+	
+											<br>
+	
+											<div class="form-row">
+												<div class="form-group col-md-6">
+													<label for="inputPretencaoSalarial2">Qual sua pretensão	salarial?</label>
+													<select id="inputPretencaoSalarial2" class="form-control">
+														<option value="">R$ Entre 1.000 a R$ 2.000</option>
+														<option value="">R$ Entre 2.000 a R$ 3.000</option>
+														<option value="">R$ Entre 3.000 a R$ 5.000</option>
+														<option value="">R$ Entre 5.000 a R$ 10.000</option>
+														<option value="">R$ Entre 10.000 a R$ 20.000</option>
+														<option value="">Acima de R$ 20.000</option>
+													</select>
+												</div>	
+											</div>
+	
+											<br>
+	
+											<div class="form-row">
+												<div class="form-group col-md-12">
+													<label for="inputEndereco">Que tipo de oferta de emprego você está disposto a considerar?</label>
+													<br>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline5" name="customRadioInline5" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInline5">CLT</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline6" name="customRadioInline6" class="custom-control-input">
+														<label class="custom-control-label"	for="customRadioInline6">PJ</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline7" name="customRadioInline7" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInline7">Estágio</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline8" name="customRadioInline8" class="custom-control-input">
+														<label class="custom-control-label"	for="customRadioInline8">Bolsa</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline9" name="customRadioInline9" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInline9">Freelancer</label>
+													</div>
+												</div>
+											</div>
+	
+											<br>
+	
+											<div class="form-row">
+												<div class="form-group col-md-12">
+													<label for="inputInstituicaoAcademica"> Você está buscando uma oportunidade remota ou presencial?</label>
+													<br>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline10" name="customRadioInline10" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInline10">Remoto ou presencial</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline11" name="customRadioInline11" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInline11">Apenas remoto</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInline11" name="customRadioInline11" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInline11">Indiferente</label>
+													</div>
+												</div>
+											</div>
 
-      
-              </div>
-            </div>
-      
-      
-          </section>
-      
-        </main>
-        <!-- END Main container -->
-      
-        <!-- Footer -->
-        <footer class="site-footer">
-          <div class="container">
-      
-            <div class="row gap-y align-items-center">
-      
-              <div class="col-12 col-lg-3 col-sm-12">
-                <p class="text-center text-lg-center text-sm-center">
-                  <a href="index.html" class="logo-footer"><img src="images/mi_logowhite.svg" alt="logo"></a>
-                </p>
-              </div>
-      
-              <div class="col-12 col-lg-6 col-sm-12">
-                <div class="text-center text-info-suporte">(42) 9921-0216 | suporte@mqc.com.br</div>
-              </div>
-      
-              <div class="col-12 col-lg-3 col-sm-12">
-                <div class="social text-center text-lg-right">
-                  <a class="social-facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                  <a class="social-twitter" href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
-                  <a class="social-instagram" href="https://www.instagram.com//"><i class="fa fa-instagram"></i></a>
-                  <a class="social-dribbble" href="https://dribbble.com/"><i class="fa fa-dribbble"></i></a>
-                </div>
-              </div>
-      
-            </div>
-          </div>
-        </footer>
-        <!-- END Footer -->
-      
-        <script src="scripts/app.js"></script>
+										</form>
+									</section>
+									<footer class="ma-form-footer right">
+										<button class="btn btn-primary">Atualizar</button>
+									</footer>	
+								</div>
 
-           <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-           <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
+								<div class="tab-pane fade " id="v-pills-certificacoes-e-perfis" role="tabpanel"
+									aria-labelledby="v-pills-certificacoes-e-perfis-tab">
+									<h5>Informações sobre valores</h5>
+									<h5><small class="text-muted">Analise dos últimos 3 meses</small></h5>
+									<br>
+									<ul class="list-group">
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Outubro
+											<span class="badge badge-primary badge-pill">R$ 250,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Setembro
+											<span class="badge badge-primary badge-pill">R$ 450,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Agosto
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Julho
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Junho
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Maio
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>									
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Abril
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Março
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Fevereiro
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>
+										<li class="list-group-item d-flex justify-content-between align-items-center">
+											Janeiro
+											<span class="badge badge-primary badge-pill">R$ 345,00</span>
+										</li>
+									</ul>
+									<br>	
+								</div>
+	
+								<div class="tab-pane fade" id="v-pills-privacidade" role="tabpanel"
+									aria-labelledby="v-pills-privacidade-tab">
+									<h5>Minha documentação</h5>
+	
+									<h5><small class="text-muted">Mantenha sempre seus arquivos atualizados</small></h5>
+									<br>
+									<section>
+										<section>
+											<form>
+												<div class="form-row">
+													<div class="form-group col-md-12">
+														<label for="inputInstituicaoAcademica">Descrição do documento</label>
+														<input type="email" class="form-control" id="inputInstituicaoAcademica" placeholder="Ex. Certidão de Casamento">
+													</div>
+													<div class="form-group col-md-12">
+														<label for="inputCurso">Orgão Emissor</label>
+														<input type="password" class="form-control" id="inputCurso" placeholder="Ex. Cartório Civil...">
+													</div>
+													<div class="form-group col-md-4">
+														<label for="inputNivel">Nível de Prioridade</label>
+														<select id="inputNivel" class="form-control">
+															<option value="">Baixo</option>
+															<option value="">Médio</option>
+															<option value="">Alto</option>
+														</select>
+													</div>
+													<div class="form-group col-md-2">
+														<label for="inputConclusao">Código</label>
+														<input type="text" class="form-control" id="inputConclusao" maxlength="4">
+													</div>
+												</div>
+	
+												<button class="btn btn-primary"> <i class="fa fa-plus"></i> Adicionar documento</button>	
+											</form>
+										</section>	
+										<footer class="ma-form-footer right">
+											<button class="btn btn-primary">Atualizar</button>
+										</footer>	
+									</section>
+								</div>
+	
+	
+								<div class="tab-pane fade " id="v-pills-habilidades" role="tabpanel"
+									aria-labelledby="v-pills-habilidades-tab">
+									<h5>Dados Gerais sobre a Audiência</h5>
+									<h5><small class="text-muted">Informativo</small></h5>
+									<br>
+									<section>
+										<form>
+	
+											<div class="form-row">
+												<div class="form-group col-md-12">
+													<label for="inputEndereco">Que tipo de vaga lhe interessa? (Escolha 1 opção apenas)</label>
+													<br>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineBackEnd" name="customRadioInlineBackEnd" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineBackEnd">Back-end</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineFrontEnd" name="customRadioInlineFrontEnd" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineFrontEnd">Front-end</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineFullStack" name="customRadioInlineFullStack" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineFullStack">Full-stack</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineMobile" name="customRadioInlineMobile" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineMobile">Mobile</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineProductOwner" name="customRadioInlineProductOwner" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineProductOwner">Product Owner</label>
+													</div>
+												</div>
+											</div>
+	
+											<br>
+	
+											<div class="form-row">
+												<div class="form-group col-md-12">
+													<label for="inputEndereco">Quais suas principais especialidades? (Escolha no máximo duas)</label>
+													<br>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageAndroid" name="customRadioInlineLanguageAndroid" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageAndroid">Android</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageC" name="customRadioInlineLanguageC" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageC">C</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageC#" name="customRadioInlineLanguageC#" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageC#">C#</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageC++" name="customRadioInlineLanguageC++" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageC++">C++</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageGo" name="customRadioInlineLanguageGo" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageGo">Go</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageIOS" name="customRadioInlineLanguageIOS" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageIOS">iOS</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageJava" name="customRadioInlineLanguageJava" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageJava">Java</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageJavaScript" name="customRadioInlineLanguageJavaScript" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageJavaScript">Javascript</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguageKotlin" name="customRadioInlineLanguageKotlin" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguageKotlin">Kotlin</label>
+													</div>
+													<div
+														class="custom-control custom-radio custom-control-inline m-t-10 p-r-10">
+														<input type="radio" id="customRadioInlineLanguagePHP" name="customRadioInlineLanguagePHP" class="custom-control-input">
+														<label class="custom-control-label" for="customRadioInlineLanguagePHP">PHP</label>
+													</div>
+												</div>
+											</div>
+	
+											<br>
+	
+										</form>
+									</section>
+									<footer class="ma-form-footer right">
+										<button class="btn btn-primary">Atualizar</button>
+									</footer>	
+								</div>
+	
+								<div class="tab-pane fade " id="v-pills-dados-pessoais" role="tabpanel" aria-labelledby="v-pills-dados-pessoais-tab">
+	
+									<div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
+										<div class="card ma-no-border">
+											<div class="card-body text-center">
+												<p><img class="img-fluid img-profile" src="https://avatars3.githubusercontent.com/u/2702537?s=460&v=4" alt="André Luiz da Silva"></p>
+												<h4 class="card-title">André Luiz da Silva</h4>
+												<p class="card-text">Web Designer em Minhas Audiências. <br>+ 55 (42) 99966-2433 </p>
+												<a href="#" class="btn btn-primary btn-sm m-t-10"><i class="fa fa-envelope"></i> Enviar Mensagem</a>
+											</div>
+										</div>
+									</div>
+	
+									<hr>
+									<br>
+	
+									<h5>Sobre mim</h5>
+									<p class="ma-paragrafh">
+										Formado em 2015 em Tecnologia e Analise de Sistemas para Internet, pela
+										Faculdade Educacional de Ponta Grossa União. Atuando como Web Designer,
+										participei de grandes projetos de E-Commerce na empresa Web Storm
+										Internet - Comércio Eletrônico. Outros projetos que também contaram com
+										minha colaboração foi na Connely Master Medica - Agência de Publicidade,
+										desenvolvendo web sites para todo o Brasil.
+									</p>
+	
+									<br>
+	
+									<div class="form-row">
+										<div class="form-group col-md-12">
+											<label for="inputNomeCompleto">Nome completo*</label>
+											<input type="email" class="form-control" id="inputNomeCompleto" placeholder="Ex. Tony Stark" value="André Luiz da Silva">
+										</div>
+										<div class="form-group col-md-12">
+											<label for="inputEmail">Confirme seu email*</label>
+											<input type="email" class="form-control" id="inputEmail" placeholder="ex. ironman@gmail.com" value="andreluiz1013@hotmail.com">
+										</div>
+										<div class="form-group col-md-12">
+											<label for="inputCelular">Celular</label>
+											<input class="form-control" id="inputCelular" placeholder="Ex. (42) 99966-2433" value="(42) 99966-2433"></input>
+										</div>
+										<div class="form-group col-md-12">
+											<label for="inputSkype">Skype*</label>
+											<input class="form-control" id="inputSkype" placeholder="Ex. ironman" value="andresilva.2018"></input>
+										</div>
+										<div class="form-group col-md-12">
+											<label for="inputSobreMim">Sobre mim*</label>
+											<textarea rows="7" class="form-control" id="inputSobreMim" placeholder="Descreva aqui sobre sua história">Formado em 2015 em Tecnologia e Analise de Sistemas para Internet, pela Faculdade Educacional de Ponta Grossa União. Atuando como Web Designer, participei de grandes projetos de E-Commerce na empresa Web Storm Internet - Comércio Eletrônico. Outros projetos que também contaram com minha colaboração foi na Connely Master Medica - Agência de Publicidade, desenvolvendo web sites para todo o Brasil.</textarea>
+										</div>
+									</div>
+									<footer class="ma-form-footer right">
+										<button class="btn btn-primary">Atualizar</button>
+									</footer>
+								</div>	
+	
+							</div>
 
-    </body>
+						</div>
+
+					</div>
+	
+				</div>
+
+			</div>
+	
+		</section>	
+	
+	</main>
+	<!-- END MAIN CONTAINER -->
+		
+	<!-- FOOTER -->
+	<footer class="footer">	
+		<div class="container">
+			<form>
+				<div class="form-row align-items-center">
+					<div class="col1">
+						<button type="submit" class="btn btn-primary btn-search mb-2 m-r-15">
+							<i class="material-icons">search</i>
+						</button>
+					</div>
+					<div class="col">
+						<label class="sr-only" for="inlineFormInputGroup">Username</label>
+						<div class="input-group mb-2">
+							<textarea class="form-control m-r-15" id="exampleFormControlTextarea1" rows="2" placeholder="Digite sua mensagem"></textarea>
+						</div>
+					</div>
+					<div class="col1">
+						<button type="submit" class="btn btn-primary btn-send mb-2 btn-round">Enviar</button>
+						<button type="submit" class="btn btn-link btn-attachment">
+							<span class="icon-paper-clip"></span>
+							<span class="badge badge-primary round badge-menu-footer">+</span>
+						</button>
+					</div>
+				</div>
+			</form>	
+		</div>
+	</footer>
+	<!-- END FOOTER -->
+
+	<script src="scripts/app.js"></script>
+	
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<script>
+		(function (b, o, i, l, e, r) {
+			b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+				function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+			e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+			e.src = '//www.google-analytics.com/analytics.js';
+			r.parentNode.insertBefore(e, r)
+		}(window, document, 'script', 'ga'));
+		ga('create', 'UA-XXXXX-X', 'auto'); ga('send', 'pageview');
+	</script>
+
+</body>
+
 </html>

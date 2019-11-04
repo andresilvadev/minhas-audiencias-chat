@@ -1,0 +1,241 @@
+.line-message {
+  width: 100%;
+  display: inline-block;
+}
+
+.line-date {
+  width: 200px;
+  height: 1px;
+}
+
+/* CSS talk bubble */
+.talk-bubble-left {
+  margin: 10px 40px 30px 40px;
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  height: auto;
+  background-color: #f2f2f2;
+  float: left;
+}
+
+.talk-bubble-right {
+  margin: 40px;
+  display: inline-block;
+  position: relative;
+  width: 60%;
+  height: auto;
+  background-color: #f2f2f2;
+  float: right;
+}
+
+/*Right triangle, placed bottom left side slightly in*/
+.tri-right.border.btm-left-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 20px solid;
+  border-color: #f2f2f2 transparent transparent #f2f2f2;
+}
+
+.tri-right.btm-left-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 12px solid;
+  border-color: #f2f2f2 transparent transparent #f2f2f2;
+}
+
+/*Right triangle, placed bottom right side slightly in*/
+.tri-right.border.btm-right-in:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 30px;
+  bottom: -41px;
+  border: 20px solid;
+  border-color: #c4c4c4 #c4c4c4 transparent transparent;
+}
+
+.tri-right.btm-right-in:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: 31px;
+  bottom: -38px;
+  border: 20px solid;
+  border-color: white white transparent transparent;
+}
+
+/* talk bubble contents */
+.talktext-left {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em;
+  border: 1px solid #f2f2f2;
+  border-radius: .8em;
+  -webkit-border-radius: .8em;
+  -moz-border-radius: .8em;
+}
+
+.talktext-left p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.talktext-rigth {
+  padding: 1em;
+  text-align: left;
+  line-height: 1.5em;
+  border: 1px solid #c4c4c4;
+  border-radius: .8em;
+  -webkit-border-radius: .8em;
+  -moz-border-radius: .8em;
+}
+
+.talktext-rigth p {
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+
+.chat-img-client {
+  width: 37px;
+  height: 37px;
+  position: absolute;
+}
+
+.chat-message {
+  margin-left: 50px;
+}
+
+.wrap {
+  text-align: left;
+}
+
+h2 {
+  color: #a0a0a0;
+  margin: 1em auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-left: 40px;
+
+  &:before {
+    /* size of line and color based on design */
+    border-top: 1px solid #ebebeb;
+    content: " ";
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Needs to be negative z-index for this to work */
+    z-index: -1;
+  }
+
+  span {
+    background: #FFF;
+    padding: 0 21px;
+    /* Spacing each side of text per design */
+  }
+
+  /* Left justified idea */
+  &.left {
+    text-align: left;
+
+    span {
+      padding: 0 10px;
+      margin-left: 0px;
+    }
+  }
+
+  /* Right justified idea */
+  &.right {
+    text-align: right;
+
+    span {
+      padding: 0 10px;
+      margin-right: 21px;
+    }
+  }
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #969696;
+  width: 100%;
+  margin: 1em auto;
+  clear: both;
+  overflow: hidden;
+}
+
+.btn-attachment {
+  font-size: 35px;
+  text-decoration: none !important;
+  z-index: 1;
+}
+
+.badge-menu-top {
+  font-size: 5px;
+  margin-left: -10px;
+}
+
+.badge-menu-footer {
+  font-size: 12px;
+  margin-left: -22px;
+}
+
+@media (max-width: 768px) {
+  .talk-bubble-left {
+    margin: 25px 0px 25px 0px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    float: left;
+  }
+
+  .talk-bubble-right {
+    margin: 25px 0px 25px 0px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f2f2f2;
+    float: right;
+  }
+
+  .btn-send {
+    width: 70px;
+  }
+
+  .m-r-15 {
+    margin-right: 0px !important;
+  }
+
+  .btn-attachment {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+}

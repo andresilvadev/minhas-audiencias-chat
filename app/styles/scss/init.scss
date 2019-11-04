@@ -1,21 +1,21 @@
 // Fonts
-// @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 // Font Awesome
-// @import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/font-awesome/scss/font-awesome";
 
 // Variables
 @import "config/variables";
 
 //misc settings
-@import 'config/_settings'; // Não usadas até o momento
-@import 'config/_mixins';   // Não usadas até o momento
+@import 'config/_settings';
+@import 'config/_mixins';
 
 // Frameworks 
 // Não precisa importar o bootstrap o mesmo já está adicionado via task do gulp
-@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";      
 
 // Pages
 @import "config/overrides";
@@ -24,3 +24,4 @@
 //global things
 @import 'general/_reset';
 @import 'layout/main';
+@import 'layout/chat';
