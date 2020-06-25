@@ -2,9 +2,10 @@ GEM
   remote: https://rubygems.org/
   specs:
     puma (3.12.1)
-    rack (2.0.7)
+    rack (2.1.4)
 
 PLATFORMS
+  ruby
   x64-mingw32
 
 DEPENDENCIES
